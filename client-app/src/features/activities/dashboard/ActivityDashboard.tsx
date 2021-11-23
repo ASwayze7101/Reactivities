@@ -21,7 +21,7 @@ interface Props {
 
 export default function ActivityDashboard({ activities, selectedActivity, selectActivity, deleteActivity,
   cancelSelectActivity, editMode, openForm, 
-  closeForm, createOrEdit, submitting }: Props) {
+  closeForm, createOrEdit, submitting}: Props) {
   return (
     <Grid>
       <Grid.Column width='10'>
